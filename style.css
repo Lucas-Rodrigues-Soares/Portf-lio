@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Smooch+Sans:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap');
+body {
+  background-image: url("../pc1.png");
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0;
+  background-color: #0d0d0d;
+  
+}
+
+.links a:hover{
+  padding: px;
+  border-radius: 8px
+  
+}
+
+.logo {
+  position:absolute ;
+  margin-right: 10px;
+  margin: 0px 0px 0 0
+}
+
+.links {
+  margin: 0 5px 0 17%;
+  min-height: 2vh;
+  gap: 40px;
+  align-content: center;
+  display: flex;
+  padding: 30px 30px;
+  position: sticky;
+  backdrop-filter: blur(28px);
+}
+
+a {
+  color: white;
+  position: relative;
+  text-decoration: none;
+  font-size: 23px;
+  font-family: Georgia;
+  padding-bottom: 5px
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  padding-bottom: 5px;
+  display: inline-block
+}
+
+.link.ativo {
+  border-bottom: 2px solid bisque;
+  
+}
+
+
+.conteudo {
+  margin: 30px 0 80px 40px
+  
+}
+
+h3 {
+  color: white;
+  font-size: 27px;
+  margin: 10px 0 0 0;
+}
+
+h2 {
+  color: gainsboro;
+  font-size: 25px;
+  margin: 95px 0 1px 10px;
+  font-family:Space Grotesk;
+    opacity: 0;
+  transform: transLateY(114px);
+  animation:aparecer 0.5s forwards
+}
+
+h1 {
+  color: white;
+  font-size: 40px;
+  margin: 0 0 20px 10px;
+    opacity: 0;
+  transform: transLateY(130px);
+  animation:aparecer 1s forwards
+}
+
+span {
+  color: bisque
+}
+
+p {
+  color: gainsboro;
+  margin: 20px 30px 93px 7px;
+  font-size: 21px;
+  animation-direction: left;
+    opacity: 0;
+  transform: transLateY(100px);
+  animation:aparecer 1.5s forwards
+}
+
+.descrição {
+  margin: 0 2px 2px 2px;
+  color: darkgray;
+  
+}
+
+.projetos {
+  color: white;
+  font-size: 35px;
+  border: 1px solid bisque;
+  border-radius: 40px;
+  box-shadow: 0 0 17px;
+  background: black;
+  margin: 20px 0 20px 30%;
+  padding: 20px;
+    opacity: 0;
+  transform: transLateY(100px);
+  animation:aparecer 6s forwards
+}
+
+.final {
+  margin: 90px 160px 0px 0;
+}
+
+.inha {
+  margin: 0px;
+  padding: 20px 0 0px;
+  position: relative;
+  top: 4px
+}
+
+
+.pessoa {
+  top: 4px;
+  position: relative
+}
+
+.bti{
+  background: bisque;
+  font-size: 29px;
+  border: 1px solid black;
+  border-radius: 39px;
+  justify-content: center;
+  height: 60px;
+  padding: 20px 10px ;
+  margin:20px 0 10px 0px;
+  box-shadow: 0px 0px 21px grey;
+  color: black;
+  
+}
+
+
+.btl{
+  background: black;
+  border: 1px solid bisque;
+  color: white;
+  font-size:29px;
+  height: 60px;
+  padding: 20px 10px;
+  border-radius: 39px;
+  margin: 20px 0 10px 25px;
+  box-shadow: 0px 0px 20px  bisque;
+  border-top: 20px
+}
+
+.mim {
+  color: bisque;
+  text-align: center;
+  margin: 40px 0 46px 0;
+  padding: 60px 0 0 0
+}
+
+.seta {
+  margin: 10px 10px 0px 10px;
+  top:10px;
+  position: relative
+}
+
+
+.eu {
+  align-itens: center;
+  text-align: center;
+  font-size: 50px;
+  margin: 10px 0 50px
+}
+
+.sobre {
+  align-items: center;
+  margin: 84px 0 0 0
+}
+
+img {
+  margin: 0 10px 0 10px;
+  
+}
+
+.dev {
+  margin: 3px 0px 0px 0px;
+  padding: 13px
+}
+
+.lin {
+  margin: 0 30px 50px 310px;
+  padding: 20px 0 0 0;
+    opacity: 0;
+  transform: transLateY(100px);
+  animation:aparecer 5.5s forwards
+}
+
+.icon {
+  margin: 106px 30px 50px 0px;
+  align-content: center;
+  padding: 20px 0 0 0;
+    opacity: 0;
+  transform: transLateY(100px);
+  animation:aparecer 5.5s forwards
+}
+
+.fim {
+  margin: 10px 0 40px 80px;
+  text-align: center;
+  border: 1px solid #1e1e1e;
+  width: 360px;
+  height: 250px;
+  border-radius: 10px;
+  padding: 0px 8px 8px 8px;
+  background: #1e1e1e;
+  box-shadow: 0px 0px 8px bisque;
+  display: Inline-block;
+  opacity: 0;
+  transform: transLateY(100px);
+  animation:aparecer 2s forwards;
+}
+
+@keyframes aparecer {
+  
+  to{
+    opacity: 1;
+    transform: transLateY(0);
+  }
+}
